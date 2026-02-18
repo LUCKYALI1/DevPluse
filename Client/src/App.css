@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@font-face {
+  font-family: primary-font;
+  src: url('../src/assets/fonts/pri_font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: secondary-font;
+  src: url('../src/assets/fonts/sec_font.ttf') format('truetype');
+}
+
+body {
+  font-family: primary-font, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: secondary-font, serif;
+}
